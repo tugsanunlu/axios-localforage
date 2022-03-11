@@ -1,0 +1,18 @@
+{
+  "name": "axios-localforage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "axios-cache-adapter": "^2.7.3",
+    "esbuild": "^0.14.25",
+    "localforage": "^1.10.0"
+  }
+}
